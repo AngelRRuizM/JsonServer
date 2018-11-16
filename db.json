@@ -1,0 +1,58 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "Rafa",
+      "email": "rafa@rafa.com"
+    },
+    {
+      "username": "Angel",
+      "email": "carlitos@bob.com",
+      "id": 2
+    }
+  ],
+  "gasStation": [
+    {
+      "id": 1,
+      "lat": 19.022637,
+      "lng": -98.241738,
+      "name": "Pemex",
+      "address": "ITESM"
+    },
+    {
+      "id": 2,
+      "lat": 19.023125,
+      "lng": -98.242402,
+      "name": "Pemex2",
+      "address": "ITESM2"
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "byUser": 1,
+      "forGasStation": 1,
+      "date": "12/08/2018",
+      "generalSCore": 4.5,
+      "generalComment": "Muy bien",
+      "magnaPrice": 19.87,
+      "premiumPrice": 21.65,
+      "serviceScore": 4.5,
+      "timeScore": 4.5,
+      "gasSCore": 4.5
+    },
+    {
+      "id": 2,
+      "byUser": 1,
+      "forGasStation": 2,
+      "date": "18/08/2018",
+      "generalSCore": 2.5,
+      "generalComment": "No tan bien",
+      "magnaPrice": 19.93,
+      "premiumPrice": 21.89,
+      "serviceScore": 2.5,
+      "timeScore": 2.5,
+      "gasSCore": 2.5
+    }
+  ]
+}
